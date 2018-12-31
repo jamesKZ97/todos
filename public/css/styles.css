@@ -1,0 +1,51 @@
+.btn-h1-spacing {
+	margin-top: 18px;
+}
+
+.todos-title{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 10rem;
+  font-weight: 100;
+  margin-left: auto;
+  margin-right: auto;
+}
+.todos-wrapper{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.todos-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .todos-list-item{
+    background: transparent;
+    word-break: break-all;
+    margin: 0;
+    
+    display: block;
+    line-height: 1.2;
+    transition: color 0.4s;
+    font-size: 24px;
+    font-weight: 300;
+  }
+}
+
+.btn btn-lg btn-primary{
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f8fafc;
+}
